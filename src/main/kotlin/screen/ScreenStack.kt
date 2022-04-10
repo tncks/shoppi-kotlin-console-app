@@ -11,7 +11,7 @@ object ScreenStack {
         screenStack.removeLastOrNull()
     }
 
-    fun peek(screen: Screen): Screen? {
+    fun peek(): Screen? {
         return screenStack.lastOrNull()
     }
 }
